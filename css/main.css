@@ -112,6 +112,9 @@ nav ul li{
     box-shadow: -480px 0 0 480px #1DB954;
     cursor: pointer;
 }
+li a{
+    color: #ffffff;
+}
 
 .songItem{
     height: 50px;
@@ -226,6 +229,7 @@ nav ul li{
     .bottom{
         position: fixed;
         height: 100px;
+        width: 100%;
         background-color: #404040;
         color: #ffffff;
         bottom: 0;

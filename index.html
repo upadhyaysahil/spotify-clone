@@ -1,11 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sahil's Spotify</title>
 </head>
+
 <body>
-    
+
+    <input type="checkbox" id="check">
+    <label for="check">
+        <i class="fa-sharp fa-solid fa-bars" id="btn"></i>
+        <i class="fa-solid fa-xmark" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+
+        <header> <img src="images/logo.png" alt="">My Spotify</header>
+        <div class="home">
+            <i class="fa-solid fa-house">&nbsp home</i>
+            <i class="fa-solid fa-magnifying-glass"> &nbsp;Search</i>
+        </div>
+        <div class="libraryMain">
+            <i class="fa-sharp fa-solid fa-stream"> &nbsp; Library</i>
+            <div class="library">
+                <h1>Create your first playlist</h1>
+                <h2>It's easy we'll help you</h2>
+                <button>Create playlist</button>
+            </div>
+        </div>
+        <div class="content">
+            <span>Legal</span>
+            <span>Privacy centet</span>
+            <span>Privacy policy</span>
+            <span>Cookies</span>
+            <span>About ads</span>
+            <span>Accessibility</span>
+            <div class="lang">
+                <button><i class="fa-solid fa-globe"> &nbsp; English</i></button>
+            </div>
+        </div>
+    </div>
+
+    <section class="sec1">
+        <button>login</button>
+        <button>signup</button>
+    </section>
+
+    <section>
+        <h1 class="divider">Mix Playlist</h1>
+        <div class="card-container">
+            
+            <div class="card1" onclick="document.location='liked.html'">
+                <img src="images/liked/like.png" alt="Avatar">
+                <div class="container">
+                    <h3><b>Liked</b></h3>
+                    <p>Songs that you've liked</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='2010s.html'">
+                <img src="images/2010S/2010mix.png" alt="Avatar">
+                <div class="container">
+                    <h3><b>2010s mix</b></h3>
+                    <p>New music from Quavo, Polo G and lill...</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='90s.html'">
+                <img src="images/90S/90s.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>90s Mix</b></h4>
+                    <p>90s hits with sonu nigam, kumar saanu ...</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='00s.html'">
+                <img src="images/00S/00s.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>00s Mix</b></h4>
+                    <p>00s hits with Mohit Chavhan, KK, Papoon ...</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='old.html'">
+                <img src="images/old/old is gold.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Old is Gold</b></h4>
+                    <p>"Kaka" and his hits</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='post.html'">
+                <img src="images/post/post malone.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Post Malone</b></h4>
+                    <p>Hollywood and music with stars</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='RB.html'">
+                <img src="images/r & b/r b.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>R & B</b></h4>
+                    <p>Hip-Hop with R & B</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='zindagi.html'">
+                <img src="images/zindagi/zindagi anthem.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Zindagi Anthem</b></h4>
+                    <p> Silent & Chill Bollywood</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="divider">Lyrics</h1>
+
+        <div class="card-container2">
+            <div class="card1" onclick="document.location='amit.html'">
+                <img src="images/amit/amit.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Amit Bhattacharya</b></h4>
+                    <p>Lyrics by Amit Bhattacharya</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='gulzar.html'">
+                <img src="images/gulzar/gulzar.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Gulzar</b></h4>
+                    <p>Lyrics by Gulzar</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='irshad.html'">
+                <img src="images/irshad/irshad.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Irshad Kamil</b></h4>
+                    <p>Lyrics by Irshad Kamil</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='javed.html'">
+                <img src="images/javed/javed.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Javed Akthar</b></h4>
+                    <p>Lyrics by Javed Akthar</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='sameer.html'">
+                <img src="images/sameer/sameer.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Sameer</b></h4>
+                    <p>Lyrics by Sameer</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='amit.html'">
+                <img src="images/amit/amit.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Amit Bhattacharya</b></h4>
+                    <p>Lyrics by Amit Bhattacharya</p>
+                </div>
+            </div>
+            <div class="card1" onclick="document.location='gulzar.html'">
+                <img src="images/gulzar/gulzar.png" alt="Avatar">
+                <div class="container">
+                    <h4><b>Gulzar</b></h4>
+                    <p>Lyrics by Gulzar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero-sec5">
+        <footer>
+            <div class="sec5-container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">For the Record</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Communities</h4>
+                        <ul>
+                            <li><a href="#">For Artists</a></li>
+                            <li><a href="#">Developers</a></li>
+                            <li><a href="#">Advertising</a></li>
+                            <li><a href="#">Investors</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Usefull Links</h4>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">For Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Community</h4>
+                        <div class="social-links">
+                            <a href="#"> <i class="fab fa-facebook"></i></a>
+                            <a href="#"> <i class="fab fa-twitter"></i></a>
+                            <a href="#"> <i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </section>
 </body>
+
 </html>
