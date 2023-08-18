@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Spotify Clone</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <img src="images/logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <img class="gulzar" src="images/00S/00s.png" alt="">
+
+    <div class="container">
+
+        <div class="songList">
+            <h1>Playlist</h1>
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">3:43&nbsp;&nbsp;<i id="0"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">5:58&nbsp;&nbsp;<i id="1"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">4:30&nbsp;&nbsp;<i id="2"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">5:34&nbsp;&nbsp;<i id="3"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">6:48&nbsp;&nbsp;<i id="4"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">4:38&nbsp;&nbsp;<i id="5"
+                                class="fa-solid songPlayItem  fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer; "></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">3:33&nbsp;&nbsp;<i id="6"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">4:43&nbsp;&nbsp;<i id="7"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">4:23&nbsp;&nbsp;<i id="8"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmlu.jpeg" alt="">
+                    <span class="songName">Let me love you</span>
+                    <span class="songlistplay"><span class="timestamp">5:49 &nbsp;&nbsp;<i id="9"
+                                class="fa-solid songPlayItem fa-1x fa-circle-play"
+                                style="color: #1DB954; cursor: pointer;"></i></span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgress" min="0" value="0" max="100" class="range-field">
+        <div class="icons">
+            <!-- fontclass icons -->
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid  fa-backward-step" style="color: #ffffff; cursor: pointer;" id="previous"></i>
+            <i class="fa-solid  fa-play-circle" id="masterPlay" style="color: #ffffff; cursor: pointer;"></i>
+            <i class="fa-solid  fa-forward-step" style="color: #ffffff; cursor: pointer; " id="next"></i>
+            <i class="fa-solid fa-repeat" style="color: #ffffff;"></i>
+        </div>
+        <div class="songInfo">
+            <img src="images/music.gif" width="50px" alt="" id="gif"> &nbsp; &nbsp; &nbsp;
+            <span class="masterSongName" id="masterSongName"></span>
+        </div>
+        <div class="other">
+            <i class="fa-solid fa-headphones-simple  " style="color: #ffffff;"></i> &nbsp;
+            <i class="fa-solid fa-volume-high  " style="color: #ffffff;"></i> &nbsp; 
+            <i class="fa-solid fa-up-right-and-down-left-from-center" style="color: #ffffff;"></i>
+        </div>
+    </div>
+
+    <script src="JS\script.js"></script>
+</body>
+
+</html>
